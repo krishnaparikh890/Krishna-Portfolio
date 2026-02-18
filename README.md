@@ -71,8 +71,6 @@ src/
 ├── main.jsx            # Entry point
 └── index.css           # Global styles
 
-
-
 ## License
 
 This project is open source and available under the MIT License.
