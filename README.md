@@ -72,12 +72,6 @@ src/
 └── index.css           # Global styles
 ```
 
-## Customization
-
-- Update personal information in respective component files
-- Modify colors in `tailwind.config.js`
-- Add/remove projects in `Projects.jsx`
-- Update social media links in `Hero.jsx` and `Contact.jsx`
 
 ## License
 
