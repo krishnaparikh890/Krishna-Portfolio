@@ -8,25 +8,14 @@ const Projects = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const projects = [
-    {
-      title: 'Study Notion',
-      description: 'Developed a full-stack Notion-style application using the MERN stack (React, Node.js, Express, and MongoDB) with a responsive and user-friendly interface. Implemented secure authentication along with features like video upload, content management, and structured note handling.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'MERN Stack'],
-      color: 'indigo',
-    },
-    {
-      title: 'Bookstore API',
-      description: 'Developed a Bookstore API using React, Node.js, Express, and MongoDB, enabling users to browse, add, update, and delete books efficiently. Implemented RESTful APIs with proper routing, validation, and error handling, along with a responsive React frontend for smooth user interaction.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'RESTful API'],
-      color: 'purple',
-    },
-    {
-      title: 'GRN Management System',
-      description: 'Developed a Labour Attendance Management System during my internship as a .NET Web Developer, implementing a role-based access control system for admins, supervisors, and workers. The application allows secure attendance tracking, user management, and data reporting through a structured web interface.',
-      tech: ['.NET', 'C#', 'ASP.NET MVC', 'SQL Server'],
-      color: 'pink',
-    },
-  ]
+  {
+    title: 'Event Loop Visualizer',
+    description: 'Developed an interactive JavaScript Event Loop Visualizer using React.js to demonstrate how the event loop works in real time. Implemented key concepts such as Call Stack, Web APIs, Callback Queue, and Microtask Queue through visual simulations.',
+    tech: ['React.js', 'JavaScript'],
+    color: 'indigo',
+  },
+  
+]
 
   const getColorClasses = (color) => {
     const colors = {
@@ -51,10 +40,10 @@ const Projects = () => {
               Projects
             </span>
           </h2>
-          <div className="w-24 h-1 bg-indigo-500 mx-auto"></div>
+          <div className="w-24 h-1 bg-indigo-500 mx-auto "></div>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex justify-center">
           {projects.map((project, index) => (
             <motion.div
               key={index}
@@ -62,7 +51,7 @@ const Projects = () => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               whileHover={{ y: -10 }}
-              className="bg-[#1a1a1a] rounded-lg p-6 border border-gray-800 hover:border-indigo-500/50 transition-all flex flex-col"
+              className="bg-[#1a1a1a] rounded-lg p-6 border border-gray-800 hover:border-indigo-500/50 transition-all flex flex-col w-full max-w-sm"
             >
               <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${getColorClasses(project.color)} flex items-center justify-center mb-4`}>
                 <FaCode className="text-white text-xl" />

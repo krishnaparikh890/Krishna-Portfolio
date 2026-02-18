@@ -30,19 +30,16 @@ const About = () => {
           className="grid md:grid-cols-2 gap-12 items-center"
         >
           <div>
-            <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              I'm a passionate Full Stack Developer with expertise in building modern web applications
-              using the MERN stack and .NET technologies. Currently pursuing B.Tech in Information Technology
-              at MBIT, Anand, with a strong foundation in both frontend and backend development.
+            <p className="text-lg text-gray-300 text-justify leading-relaxed mb-4">
+              I am a passionate Web Developer with experience in building modern, responsive, and user-friendly web applications using React.js and ASP.NET technologies. I have good knowledge of frontend and backend development and completed my Bachelor of Engineering in Information Technology. I am motivated to learn new technologies and continuously improve my skills to build high-quality web applications.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              During my internship at Dhavat-Infotech, I gained hands-on experience developing enterprise-level
-              applications using ASP.NET MVC, C#, and SQL Server. I'm passionate about creating scalable,
-              efficient, and user-friendly solutions that solve real-world problems.
+            <p className="text-lg text-gray-300 text-justify leading-relaxed mb-4">
+              <p>
+  During my internship, I worked on developing an online GRN Management and Labor Attendance System used across multiple locations, improving record accuracy and streamlining approval processes. Using ASP.NET MVC, C#, and SQL Server, I worked on building and enhancing the application. I also worked on designing and implementing key modules such as GRN entry, approval workflows, and labor attendance tracking, ensuring efficient system functionality and reliable data management.
+</p>
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              When I'm not coding, I enjoy participating in hackathons, attending tech workshops, and
-              continuously learning new technologies to stay at the forefront of web development.
+            <p className="text-lg text-gray-300  text-justify leading-relaxed">
+              When I'm not coding, I like exploring new technologies, and continuously learning to stay updated with modern web development.
             </p>
           </div>
 
@@ -59,15 +56,15 @@ const About = () => {
                   <p className="text-gray-400">Projects</p>
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold text-purple-400 mb-2">1</h3>
+                  <h3 className="text-3xl font-bold text-purple-400 mb-2">2</h3>
                   <p className="text-gray-400">Internship</p>
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold text-pink-400 mb-2">MERN</h3>
+                  <h3 className="text-3xl font-bold text-pink-400 mb-2">React.js</h3>
                   <p className="text-gray-400">Stack Expert</p>
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold text-indigo-400 mb-2">.NET</h3>
+                  <h3 className="text-3xl font-bold text-indigo-400 mb-2">Web</h3>
                   <p className="text-gray-400">Developer</p>
                 </div>
               </div>

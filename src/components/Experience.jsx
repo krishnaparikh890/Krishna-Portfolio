@@ -9,8 +9,8 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: '.NET Web Developer Intern',
-      company: 'Dhavat-Infotech',
+      title: 'Software Engineer Intern',
+      company: 'Dhavat-Infotech Pvt Ltd',
       period: 'January 2025 - May 2025',
       location: 'Anand, Gujarat, India',
       description: [

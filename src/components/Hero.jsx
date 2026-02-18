@@ -56,14 +56,13 @@ const Hero = () => {
 
         <motion.div variants={itemVariants}>
           <h2 className="text-2xl md:text-4xl font-semibold mb-4 text-gray-300">
-            Full Stack Developer
+            Web Developer
           </h2>
         </motion.div>
 
         <motion.div variants={itemVariants}>
-          <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Passionate about building scalable web applications using modern technologies.
-            Specialized in MERN stack and .NET development.
+          <p className="text-lg md:text-xl text-gray-400 mb-8 mx-auto text-center">
+         Passionate about building scalable Web applications using modern technologies.
           </p>
         </motion.div>
 

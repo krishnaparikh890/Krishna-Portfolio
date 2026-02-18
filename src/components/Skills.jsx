@@ -8,16 +8,11 @@ const Skills = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const skillCategories = [
-    {
-      title: 'Programming Languages',
-      icon: <FaCode />,
-      skills: ['C++', 'ASP.NET', 'JavaScript'],
-      color: 'indigo',
-    },
+    
     {
       title: 'Web Development',
       icon: <FaCode />,
-      skills: ['React.js', 'Node.js', 'HTML5', 'CSS', 'Tailwind CSS', 'Bootstrap'],
+      skills: ['React.js','HTML5', 'CSS', 'Tailwind CSS', 'Bootstrap'],
       color: 'purple',
     },
     {

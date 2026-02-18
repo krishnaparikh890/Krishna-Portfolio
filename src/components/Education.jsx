@@ -9,18 +9,18 @@ const Education = () => {
 
   const education = [
     {
-      degree: 'B.Tech (Information Technology)',
+      degree: 'B.E (Information Technology)',
       institution: 'MBIT',
       location: 'Anand, Gujarat, India',
-      year: '2026',
-      description: 'Pursuing Bachelor of Technology in Information Technology with focus on web development, software engineering, and modern technologies.',
+      year: '2025',
+      description: 'Completed Bachelor of Engineering in Information Technology with a focus on web development, software engineering, and modern technologies',
     },
   ]
 
   const activities = [
-    'Attended the workshop on JavaScript in July 2024',
-    'Completed the certified courses of MERN Stack',
-    'Participated in Smart Gujarat Hackathon 2025',
+    'Learning new technologies',
+    'Practicing coding and improving development skills',
+    
   ]
 
   return (
