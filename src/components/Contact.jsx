@@ -51,12 +51,11 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-indigo-500 mx-auto"></div>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.
-          </p>
+I'm actively looking for new opportunities. My inbox is always open, Whether you have a question or just want to say hi, I'll try my best to get back to you!          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact Info */}
+          
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -95,7 +94,7 @@ const Contact = () => {
               <p className="text-gray-400 mb-4">Connect with me:</p>
               <div className="flex gap-4">
                 <motion.a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/krishna-parikh-0a69b027a"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2, y: -5 }}
@@ -105,7 +104,7 @@ const Contact = () => {
                   <FaLinkedin />
                 </motion.a>
                 <motion.a
-                  href="https://github.com"
+                  href="https://github.com/krishnaparikh890"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2, y: -5 }}
@@ -118,7 +117,7 @@ const Contact = () => {
             </div>
           </motion.div>
 
-          {/* Contact Form */}
+          
           <motion.form
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}

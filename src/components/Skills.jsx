@@ -12,28 +12,28 @@ const Skills = () => {
     {
       title: 'Web Development',
       icon: <FaCode />,
-      skills: ['React.js','HTML5', 'CSS', 'Tailwind CSS', 'Bootstrap'],
+      skills: ['React.js','HTML5', 'CSS3', 'Tailwind CSS', 'JavaScript'],
       color: 'purple',
     },
     {
       title: 'Databases',
-      icon: <FaDatabase />,
-      skills: ['MySQL', 'MongoDB'],
+      icon: <FaDatabase />,       
+      skills: ['PostgreSQL', 'MySQL'],
       color: 'pink',
     },
     {
       title: 'Tools',
       icon: <FaTools />,
-      skills: ['Git', 'GitHub'],
+      skills: ['Git', 'GitHub', 'Visual Studio Code'],
       color: 'indigo',
     },
   ]
 
   const getColorClasses = (color) => {
     const colors = {
-      indigo: 'from-indigo-500 to-indigo-600 border-indigo-500/50 text-indigo-400',
-      purple: 'from-purple-500 to-purple-600 border-purple-500/50 text-purple-400',
-      pink: 'from-pink-500 to-pink-600 border-pink-500/50 text-pink-400',
+      indigo: 'from-indigo-500 to-indigo-600 border-indigo-500/50 ',
+      purple: 'from-purple-500 to-purple-600 border-purple-500/50 ',
+      pink: 'from-pink-500 to-pink-600 border-pink-500/50 ',
     }
     return colors[color] || colors.indigo
   }
@@ -77,7 +77,7 @@ const Skills = () => {
                     animate={isInView ? { opacity: 1, scale: 1 } : {}}
                     transition={{ duration: 0.3, delay: index * 0.1 + skillIndex * 0.05 }}
                     whileHover={{ scale: 1.1 }}
-                    className={`px-4 py-2 bg-gradient-to-r ${getColorClasses(category.color)} rounded-lg text-sm font-medium border`}
+                    className={`px-4 py-2 bg-gradient-to-r ${getColorClasses(category.color)} rounded-lg text-sm font-medium border text-black`}
                   >
                     {skill}
                   </motion.span>

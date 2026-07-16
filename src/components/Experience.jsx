@@ -20,6 +20,20 @@ const Experience = () => {
         'Collaborated with the development team to analyze requirements and enhance system usability through continuous improvements and feature enhancements',
       ],
     },
+
+{
+      title: 'Junior Web Developer Intern',
+      company: '7script Technologies Pvt.Ltd.',
+      period: 'April 2026 - Present',
+      location: 'Ahmedabad, Gujarat, India',
+      description: [
+        'Engineered and deployed feature-rich web applications Using HTML5, CSS3, JavaScript(ES6+), and React.js',
+        'Debugged UI components and improved website performance and user experience',
+        'Debugged UI components and improved website performance and user experience',
+      ],
+    },
+
+
   ]
 
   return (

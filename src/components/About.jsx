@@ -31,16 +31,8 @@ const About = () => {
         >
           <div>
             <p className="text-lg text-gray-300 text-justify leading-relaxed mb-4">
-              I am a passionate Web Developer with experience in building modern, responsive, and user-friendly web applications using React.js and ASP.NET technologies. I have good knowledge of frontend and backend development and completed my Bachelor of Engineering in Information Technology. I am motivated to learn new technologies and continuously improve my skills to build high-quality web applications.
-            </p>
-            <p className="text-lg text-gray-300 text-justify leading-relaxed mb-4">
-              <p>
-  During my internship, I worked on developing an online GRN Management and Labor Attendance System used across multiple locations, improving record accuracy and streamlining approval processes. Using ASP.NET MVC, C#, and SQL Server, I worked on building and enhancing the application. I also worked on designing and implementing key modules such as GRN entry, approval workflows, and labor attendance tracking, ensuring efficient system functionality and reliable data management.
-</p>
-            </p>
-            <p className="text-lg text-gray-300  text-justify leading-relaxed">
-              When I'm not coding, I like exploring new technologies, and continuously learning to stay updated with modern web development.
-            </p>
+I'm a Software Engineer with hands-on experience building and maintaining web applications. Currently working at 7Script Technologies, I focus on frontend development — turning designs and requirements into clean, functional interfaces. I enjoy solving real-world problems, improving existing systems, and shipping features that are actually used in production. My goal is to write practical, maintainable code while continuously growing as an engineer.            </p>           
+             
           </div>
 
           <motion.div

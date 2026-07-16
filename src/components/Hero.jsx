@@ -95,7 +95,7 @@ const Hero = () => {
           className="flex justify-center gap-6 text-2xl"
         >
           <motion.a
-            href="https://github.com"
+            href="https://github.com/krishnaparikh890"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, y: -5 }}
@@ -105,7 +105,7 @@ const Hero = () => {
             <FaGithub />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/krishna-parikh-0a69b027a"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, y: -5 }}
