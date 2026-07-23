@@ -8,18 +8,6 @@ const Experience = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const experiences = [
-    {
-      title: 'Software Engineer Intern',
-      company: 'Dhavat-Infotech Pvt Ltd',
-      period: 'January 2025 - May 2025',
-      location: 'Anand, Gujarat, India',
-      description: [
-        'Developed a web-based GRN and Labor Attendance Management System using ASP.NET MVC, C#, and SQL Server',
-        'Implemented approval workflows and role-based access control to manage multi-location data securely',
-        'Contributed to testing, debugging, and performance optimization to improve system accuracy and reliability',
-        'Collaborated with the development team to analyze requirements and enhance system usability through continuous improvements and feature enhancements',
-      ],
-    },
 
 {
       title: 'Junior Web Developer Intern',
@@ -33,6 +21,19 @@ const Experience = () => {
       ],
     },
 
+
+{
+      title: 'Software Engineer Intern',
+      company: 'Dhavat-Infotech Pvt Ltd',
+      period: 'January 2025 - May 2025',
+      location: 'Anand, Gujarat, India',
+      description: [
+        'Developed a web-based GRN and Labor Attendance Management System using ASP.NET MVC, C#, and SQL Server',
+        'Implemented approval workflows and role-based access control to manage multi-location data securely',
+        'Contributed to testing, debugging, and performance optimization to improve system accuracy and reliability',
+        'Collaborated with the development team to analyze requirements and enhance system usability through continuous improvements and feature enhancements',
+      ],
+    },
 
   ]
 
