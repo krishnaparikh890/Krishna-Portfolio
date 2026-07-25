@@ -44,7 +44,7 @@ I'm a Software Engineer with hands-on experience building and maintaining web ap
             <div className="bg-gradient-to-br from-indigo-500/20 to-purple-500/20 rounded-lg p-8 backdrop-blur-sm border border-indigo-500/30">
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <h3 className="text-3xl font-bold text-indigo-400 mb-2">2+</h3>
+                  <h3 className="text-3xl font-bold text-indigo-400 mb-2">1</h3>
                   <p className="text-gray-400">Projects</p>
                 </div>
                 <div>
