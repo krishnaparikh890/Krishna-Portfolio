@@ -17,7 +17,6 @@ const Experience = () => {
       description: [
         'Engineered and deployed feature-rich web applications Using HTML5, CSS3, JavaScript(ES6+), and React.js',
         'Debugged UI components and improved website performance and user experience',
-        'Debugged UI components and improved website performance and user experience',
       ],
     },
 
